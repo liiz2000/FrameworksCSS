@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> FRAMEWORK BOOSTRAP PARA ICONOS -->
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Round|Material+Icons+Two+Tone" rel="stylesheet"> GOOGLE ICONS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>Boostrap</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-custom-color mb-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="" width="35" height="35" class="d-inline-block align-text-top">
+        Bienvenidos
+      </a>
+    </div>
+  </nav>
+
+  <section class="container container d-flex justify-content-center">
+
+    <form class="col-5 border p-4 bg-white ">
+      <div class="d-flex flex-row justify-content-between border-bottom mb-3 pb-2">
+        <h3>Acceso</h3>
+        <button class="btn btn-outline-primary h-25">Registro</button>
+      </div>
+      <div class="input-group mb-3 ">
+        <span class="input-group-text" id="basic-addon1">
+          <!-- icono persona boostrap -->
+          <!-- <i class="bi bi-person-fill"></i> -->
+          <!-- <span class="material-icons"> person </span> -->
+          <!-- <span class="material-icons-round">
+        person
+        </span> -->
+          <!-- <span class="material-icons-two-tone">
+          person
+          </span> -->
+          <i class="fas fa-user custom"></i>
+        </span>
+        <input type="email" class="form-control" placeholder="test@test.com" aria-label="Username"
+          aria-describedby="basic-addon1">
+      </div>
+
+      <form class="col-4">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">
+            <!-- icono boostrap -->
+            <!-- <i class="bi bi-key-fill"></i> -->
+            <!-- span class="material-icons">key</span> -->
+            <!-- <span class="material-icons-round">
+            key
+            </span> -->
+            <!-- <span class="material-icons-two-tone">
+              vpn_key
+              </span> -->
+            <i class="fas fa-key custom"></i>
+          </span>
+          <input type="password" class="form-control" placeholder="password" aria-label="username"
+            aria-describedby="basic-addon1">
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+        </div>
+        <div class="d-flex justify-content-between">
+          <button type="submit" class="btn btn-primary w-50">Aceptar</button>
+          <a href="">
+            <span>¿Olvido su contraseña?</span>
+          </a>
+        </div>
+      </form>
+  </section>
+
+  <footer class="w-100 py-0.5 flex-shrink-0 fixed-bottom">
+    <div class="container py-4">
+      <div class="row gy-4 gx-5">
+        <div class="col-lg-4 col-md-6">
+          <h5 class="h1 text-white">FB.</h5>
+          <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt.</p>
+          <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary"
+              href="#">Bootstrapious.com</a></p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="text-white mb-3">Quick links</h5>
+          <ul class="list-unstyled text-muted">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Get started</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="text-white mb-3">Quick links</h5>
+          <ul class="list-unstyled text-muted">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Get started</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5 class="text-white mb-3">Newsletter</h5>
+          <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt.</p>
+          <form action="#">
+            <div class="input-group mb-3">
+              <input class="form-control" type="text" placeholder="Recipient's username"
+                aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-primary" id="button-addon2" type="button"><i
+                  class="fas fa-paper-plane"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
